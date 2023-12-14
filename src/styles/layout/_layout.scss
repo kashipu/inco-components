@@ -1,0 +1,13 @@
+.sidebar-layout {
+  height: 100svh;
+}
+.sidebar-box {
+  display: grid;
+  grid-template-columns: minmax(50px, max-content) 1fr;
+  height: 100vh;
+}
+.sidebar-menu {
+  border-right: 2px solid $neutrals-graylight-500;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.user-button{
+  display: flex;
+  align-items: center;
+}
+.user-button-text {
+  text-align: right;
+  color: black;
+  margin-right: 1rem;
+}
+
+.user-button-name {
+  font-weight: $fw-600;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+.user-button-role {
+  font-weight: $fw-400;
+  font-size: .9rem;
+}
+
+.user-button-avatar {
+  display: flex;
+  img {
+    border-radius: 1.5rem;
+  }
+}

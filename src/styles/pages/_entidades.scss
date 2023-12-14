@@ -1,0 +1,19 @@
+.page-container {
+  padding: 3rem;
+}
+.title-box {
+  padding: 1.5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: $fw-700;
+    color: $brand-navy;
+  }
+}
+.button-section {
+  display: flex;
+  gap: 1rem;
+}

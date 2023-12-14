@@ -1,0 +1,10 @@
+.header {
+  border-bottom: 2px solid $brand-green-light;
+}
+.header-container {
+  padding: 1.5rem 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

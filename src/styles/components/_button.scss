@@ -1,0 +1,15 @@
+.buttonic {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: $fw-500;
+}
+.btn-primary {
+  background-color: $brand-navy;
+  color: white;
+}

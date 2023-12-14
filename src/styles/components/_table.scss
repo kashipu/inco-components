@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+
+  thead {
+    background-color: $brand-green-light;
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: $fw-600;
+    tr {
+      th {
+        padding: 1rem;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 1rem;
+        border-bottom: 1px solid $neutrals-graylight-500;
+      }
+    }
+  }
+}
+.table tr:nth-child(even) {
+  background-color: $neutrals-graylight-400;
+}
+.table tbody tr:hover {
+  background-color: $neutrals-graylight-500;
+}
+
+.checkbox-table {
+  width: 16px;
+  height: 16px;
+}

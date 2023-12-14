@@ -1,0 +1,25 @@
+// Colors
+//Brand Colors
+$brand-green-light: #008651;
+$brand-green-lemon: #8DC63F;
+$brand-navy: #001E50;
+// Graylight Colors
+$neutrals-graylight-400: #F2F2F2;
+$neutrals-graylight-500: #D5D5D5;
+// Gray Colors
+$neutrals-gray-400: #222222;
+
+// Font Weights
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+
+:root {
+  --fw-300: #{$fw-300};
+  --fw-400: #{$fw-400};
+  --fw-500: #{$fw-500};
+  --fw-600: #{$fw-600};
+  --fw-700: #{$fw-700};
+}
