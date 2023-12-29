@@ -1,5 +1,6 @@
 .table {
   width: 100%;
+  border-collapse: collapse;
 
   thead {
     background-color: $brand-green-light;
@@ -16,7 +17,8 @@
   tbody {
     tr {
       td {
-        padding: 1rem;
+        padding: .8rem 1rem;
+        vertical-align: middle;
         border-bottom: 1px solid $neutrals-graylight-500;
       }
     }
@@ -33,3 +35,4 @@
   width: 16px;
   height: 16px;
 }
+
